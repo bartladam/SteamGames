@@ -8,5 +8,9 @@ namespace SteamGames
 {
     internal interface IUser
     {
+        string username { get; }
+        string password { get; }
+        void LogIn();
     }
+
 }
