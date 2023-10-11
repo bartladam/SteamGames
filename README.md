@@ -6,7 +6,7 @@ USED SKILLS:
 3) Interface
 4) If, switch
 5) Polymorphism
-6) XML comment
+6) XML comments
 7) UML
 8) TryParse
 9) While, do while
