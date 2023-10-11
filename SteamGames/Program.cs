@@ -1,5 +1,6 @@
 ﻿using SteamGames;
 
+Console.Title = "Steam games";
 Steam steam = new Steam(
     new Games("Call of Duty", 350, Games.Genre.Battle),
     new Games("Train simulator", 500, Games.Genre.Simulator),
