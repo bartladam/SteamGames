@@ -27,6 +27,38 @@ namespace SteamGames
             {
                 loged = item.Loged;
             }
+            do
+            {
+                Console.Clear();
+                if(loged is not "")
+                {
+                    Console.WriteLine(@"
+1 - Buy game
+2 - Your library");
+
+                    switch(Console.ReadKey().KeyChar)
+                    {
+                        case '1':
+                            Console.WriteLine();
+                            foreach (Games item in listGames)
+                            {
+                                Console.WriteLine("{0} ({1} Kč)", item.nameGame, item.priceGame);
+                            }
+                            Console.Write("Name game: ");
+                            string selectedGames = Console.ReadLine();
+                            BuyGame(selectedGames);
+                            break;
+                        case '2':
+                            Console.WriteLine();
+                            foreach (Games item in library.games)
+                            {
+                                Console.WriteLine("{0}", item.nameGame);
+                            }
+                            break;
+                    }
+                }
+                Console.ReadKey();
+            } while (true);
         }
         public void AddUserToDatabase(User user)
         {
@@ -42,6 +74,8 @@ namespace SteamGames
                     if(item.priceGame > 0)
                     {
                         PaymentGate p = new PaymentGate();
+                        if (p.Pay(item.priceGame))
+                            DownloadGame(item);
                     }
                     else
                     {
@@ -52,7 +86,7 @@ namespace SteamGames
         }
         private void DownloadGame(Games games)
         {
-
+            library.AddToLibrary(games);
         }
     }
 }

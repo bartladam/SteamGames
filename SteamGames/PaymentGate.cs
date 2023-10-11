@@ -18,7 +18,7 @@ namespace SteamGames
                 {
                     Console.WriteLine("Entry money:");
                 }
-            } while (result >= priceGame);
+            } while (result < priceGame);
             return true;
         }
     }

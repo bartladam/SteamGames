@@ -1,0 +1,15 @@
+D:\Visual Studio Projects\SteamGames\SteamGames\bin\Debug\net7.0\SteamGames.exe
+D:\Visual Studio Projects\SteamGames\SteamGames\bin\Debug\net7.0\SteamGames.deps.json
+D:\Visual Studio Projects\SteamGames\SteamGames\bin\Debug\net7.0\SteamGames.runtimeconfig.json
+D:\Visual Studio Projects\SteamGames\SteamGames\bin\Debug\net7.0\SteamGames.dll
+D:\Visual Studio Projects\SteamGames\SteamGames\bin\Debug\net7.0\SteamGames.pdb
+D:\Visual Studio Projects\SteamGames\SteamGames\obj\Debug\net7.0\SteamGames.csproj.AssemblyReference.cache
+D:\Visual Studio Projects\SteamGames\SteamGames\obj\Debug\net7.0\SteamGames.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio Projects\SteamGames\SteamGames\obj\Debug\net7.0\SteamGames.AssemblyInfoInputs.cache
+D:\Visual Studio Projects\SteamGames\SteamGames\obj\Debug\net7.0\SteamGames.AssemblyInfo.cs
+D:\Visual Studio Projects\SteamGames\SteamGames\obj\Debug\net7.0\SteamGames.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\SteamGames\SteamGames\obj\Debug\net7.0\SteamGames.dll
+D:\Visual Studio Projects\SteamGames\SteamGames\obj\Debug\net7.0\refint\SteamGames.dll
+D:\Visual Studio Projects\SteamGames\SteamGames\obj\Debug\net7.0\SteamGames.pdb
+D:\Visual Studio Projects\SteamGames\SteamGames\obj\Debug\net7.0\SteamGames.genruntimeconfig.cache
+D:\Visual Studio Projects\SteamGames\SteamGames\obj\Debug\net7.0\ref\SteamGames.dll
